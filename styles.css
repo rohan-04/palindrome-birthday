@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+	--primary-color: #059669;
+	--secondary-color: #111827;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', sans-serif;
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	max-width: 700px;
+	margin-top: 2rem;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+label {
+	margin-bottom: 0.5rem;
+	font-size: 2rem;
+}
+
+#birth-date {
+	padding: 0.8rem;
+	width: 70%;
+	margin-bottom: 1.5rem;
+	border-radius: 5px;
+	border: none;
+}
+
+#check-btn {
+	padding: 0.8rem 1.2rem;
+	color: white;
+	background-color: var(--secondary-color);
+	border: none;
+	border-radius: 5px;
+}
+
+#output {
+	margin-top: 1rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+img {
+	width: 40vw;
+	height: 40vh;
+}
+
+.disable {
+	display: none;
+}
